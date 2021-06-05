@@ -95,32 +95,171 @@ line-height: 46px;
   padding-top:50%;
   margin-top:46px;
  }
- #slider .content-heading{
- font-size:24px;color:white;text-align: center;;
+ #slider .text-content{
+     position:absolute;bottom:0px;
+     width: 100%; text-align:center;
  }
-#slider .text-content{
-    font-size:24px;color:white;margin-top:25px; 
+ #slider .content-heading{
+    color:white;
+    font-size:24px;
+    margin-bottom:12px;
+    
+   
+ }
+ #slider .text-discription{
+    color:white;
+    font-size:16px;
+    margin-bottom:47px;
+    
+}
+
+ #content {
+ 
+ }
+ #content .content-header{
+    width:800px;
+   margin-left: auto;
+   margin-right:auto;
+   height: 400px;
+ }
+ .content-header .name{
+     font-size:30px;
+     text-align: center;
+     letter-spacing: 3px;
+ 
+
+ }
+ #content .slogan{
+     font-size:15px;text-align: center;
+     color:#ccc;
+     font-style: italic;
+     margin-top:12px;
+ }
+ #content .about {
+     font-size:15px;
+     text-align: center;
+     text-align:justify;
+     margin-top:15px;
+     text-indent: 20px;
+     line-height: 25px;
+     
+ }
+ #content .member-info{
+  margin-left:16px;
+  margin-right:16px;
+     
+     
+ }
+ #content .members-list{
+    
+    width:800px;
+    margin-top:48px;
+    display:flex;
+    justify-content: center;
+    margin-bottom:80px;
+ }
+ #content .member-name {
     text-align:center;
-}
-#content .band{width:800px;margin-left:auto;
-    margin-right:auto;padding:64px 16px;}
-#content .header{Font-size:30px;letter-spacing: 3px;
-    text-align:center}
-#content .header1{color:white;text-align:center;
-    Font-size:30px;letter-spacing: 3px;}
-#content .slogan{opacity:0.5;text-align:center;
-    font-style: italic;font-size:15px;margin-top:25px;
-    margin-bottom:15px;}
-#content .para {text-align:justify;
-    font-size:15px;margin-bottom:15px; }
-.member .member-band{float:left;width:33.33333%;
-    text-align:center;}
-.member .member-name{
-    font-size:15px;margin:15px 0px;
-}
-.member .member-img{width:154px;}
-
-
+    font-size:16px;
+    margin-bottom:16px;
+ }
+ #content .image {
+    padding:0px 35px;
+    width:154px;
+     
+ }
+ #content .tours-date{
+    font-size:30px;
+    justify-content: center;
+    letter-spacing: 3px;display:flex;color:white;
+ }
+ #content .slogan-tour{
+    font-size:15px; color:#ccc;
+    font-style: italic;
+    justify-content: center;display:flex; margin-top:12px;
+    margin-bottom:35px;
+ }
+ .future-tours{}
+ .future-tours .tours-date{
+     font-size:30px; color:white;justify-content: center;
+     display:flex;
+     padding-top:16px;
+ }
+ .future-tours .slogan-tour{
+     font-size:15px; color:#ccc;
+     justify-content: center;
+     display:flex;
+     margin-top:25px;
+     margin-bottom:15px;
+  }
+  .future-tours .month{
+    height: 51px;
+    background-color: white;
+    width: 800px;    
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid black;
+  }
+  .future-tours .Sold {
+      background-color:#f44336 ; color:white;
+  }
+  .future-tours .number {
+      float:right;
+      background-color: black; color:white;
+      border-radius:50%;padding: 0px 8px;
+  } 
+  .future-tours .ticket-list {
+    margin-left: 167px;
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+  }
+ .tours-section {
+     background-color:black;
+ }
+ .tours-section .slogan-tour{
+     margin-bottom:40px;
+ }
+ #content .tours-section .place-touring {
+    margin-top: 33px;
+     background-color: #000;
+     display: flex;
+    justify-content: space-between;
+ }
+.place{
+    background: white;
+    width: 301px;
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+ }
+ .place-img {
+     width:100%;
+ }
+ .place-tour {
+   
+    font-size:15px;
+ }
+ .place-time{
+   font-size:15px;
+   margin-top:15px;
+   margin-bottom:15px;
+   opacity:0.5;
+ }
+ .place-about{
+font-size:15px;
+margin-bottom:15px;
+ }
+ .place-buy {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 12px 20px;
+    margin-bottom:8px;
+ }
+ 
 #footer {
 
  }
